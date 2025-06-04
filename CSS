@@ -1,0 +1,99 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #161103;
+  color: #ffffff;
+  position: sticky;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+
+header,
+h1 {
+  text-align: center;
+}
+
+.menu-text {
+  color: #fff;
+  background-color: rgb(143, 135, 135);
+  padding: 7px;
+  margin: 1em auto;
+  width: 25%;
+  border: 2px solid #c0230e;
+  border-radius: 5px;
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: tex-bottom;
+}
+
+section {
+  min-height: 25vh;
+} 
+
+#portfolio-section {
+  width: auto;
+  height: 25vh;
+  padding: 30px;
+  margin: 5px 0;
+  border-radius: 5px;
+  list-style-type: none;
+  display: inline-block;
+}
+
+/* .portfolio-photo {
+  max-width: none;
+  width: 10em;
+  height: 10em;
+} */
+
+img {
+  width: 150px;
+}
+
+#outer-photo {
+  padding: 50px;
+}
+
+#dino-photo {
+  border: 5px solid #161103;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  width: 400;
+}
+main {
+  margin: 5%;
+  width: 100%;
+  height: 250vh;
+}
+
+footer > p {
+  width: 80%;
+  margin: auto;
+}
+
+
+footer {
+  color: #fff;
+  background-color: #161103;
+  width: 100%;
+  height: 20vh;
+  margin: auto;
+  display: grid;
+  text-align: center; 
+}
+
+footer > form {
+  width: 80%;
+  margin: auto;
+   }
+   
+footer > .contact-info {
+  text-align: left;
+}
